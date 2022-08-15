@@ -1,0 +1,33 @@
+.header__content {
+  max-width: 1062px;
+}
+
+.menu__list {
+  height: 82px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.menu__list li {
+  margin: 0px 0px 0px 33px;
+}
+.menu__list li:first-child {
+  margin: 0;
+  -webkit-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+}
+.menu__list li:hover {
+  color: #FF6464;
+}
+.menu__link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+}

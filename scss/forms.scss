@@ -1,0 +1,23 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #FF6464;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29 / 20 * 100%;
+    color: #FFFFFF !important;
+    padding: 17px 20px;
+    transition: opacity 0.3s ease-in;
+    &:hover {
+        color: white;
+        opacity: 0.8;
+    }
+    & a:visited {
+        color: white;
+    }
+}
+
+

@@ -1,0 +1,22 @@
+.featured-works {
+  padding: 53px 0 32px 0;
+}
+.featured-works__title {
+  margin: 0 0 20px 0;
+}
+
+.works__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.works__image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 246px;
+          flex: 0 0 246px;
+  border-radius: 6px;
+  min-height: 180px;
+}

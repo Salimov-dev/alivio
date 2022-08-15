@@ -1,0 +1,55 @@
+.header {
+
+    &__content {
+        max-width: 1062px;
+    }
+}
+
+.header {
+
+    &__menu {
+    }
+
+    &_container {
+    }
+
+}
+
+.menu {
+
+    &__icon {
+    }
+
+    &__body {
+    }
+
+    &__list {
+        height: 82px;
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        li {
+            margin: 0px 0px 0px 33px;
+        }
+        li:first-child {
+            margin: 0;
+            transition: color 0.3s ease-in;
+        }
+        li:hover {
+            color: #FF6464;
+        }
+
+    }
+
+    &__link {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        color: #000000;
+    }
+}
+.icon-menu {
+}
+
+
+
